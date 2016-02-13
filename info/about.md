@@ -3,6 +3,9 @@ I'm Anthony, and I do web, software, and mobile development. I'll go into my wor
 myself. I'm a comp sci student currently working at the University of Iowa ITS. I love hockey, people, math, code, and 
 (especially) food.
 
+### Work
+I love what I do and I try to enjoy 
+
 ### My favorite things
 
 Programming languages:
