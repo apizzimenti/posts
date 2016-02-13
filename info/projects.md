@@ -19,6 +19,7 @@ I used an OOP model for the modules in the project so that each had easily acces
 a bunch of function collections and callback hell. The OOP model makes JavaScript that much easier to write and organize.
 
 **Status**: _production version(s) completed_
+
 **Due for Completion**: _none_
 
 ### Planet Z (work - web)
@@ -29,6 +30,7 @@ Because I got this job earlier in my JavaScript career, I didn't write it in an 
 The rest of the interactions are all in Angular, and so it's a really slick SPA.
 
 **Status**: _in progress_
+
 **Due for Completion**: _April 2016_
 
 ### Sounds of Speech (work - mobile)
@@ -81,6 +83,7 @@ Now, the challenge with this project is that I have to engineer it to run on an 
 and memory capacity is on that little thing, so I'm going to try and use WebWorkers to lighten the load.
 
 **Status**: _near completion, branching_
+
 **Due for Completion**: _February 2016_
 
 ### NHL Playoff Predictor (personal - data/software)
@@ -89,4 +92,5 @@ predicted the first-round matchups with a ~50% accuracy rate, but I didn't reall
 doing it in Python this time around because it's better for data manipulation and I want to learn it.
 
 **Status**: _planning_
+
 **Due for Completion**: _by the first game of the playoffs_
