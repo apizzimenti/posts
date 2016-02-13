@@ -57,3 +57,5 @@ correct page. That's what happens for essentially everything.
 5 - make a posts repo
 I wanted to store my posts and information in a logical, organized place that was easy to reach. GitHub was the first choice,
 and I can do essentially whatever I want here. It's a great time.
+
+$$f(x) = x^2 + 3x - 4 $$
