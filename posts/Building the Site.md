@@ -62,4 +62,4 @@ correct page. That's what happens for essentially everything.
 I wanted to store my posts and information in a logical, organized place that was easy to reach. GitHub was the first choice,
 and I can do essentially whatever I want here. It's a great time.
 
-\ 4x + x^2 \
+$ 4x + x^2 $
