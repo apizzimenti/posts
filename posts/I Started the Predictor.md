@@ -11,7 +11,7 @@ $$ga_i = $$ goals against/game for team i
 $$gf_i + ga_i = ag_i = $$ average number of goals in a game team iplays
 $$\frac{gf_i}{ag_i} = $$ probability that team i will score $$gf_i$$ goals in a game where $$ag_i$$ goals are scored
 
-So we have our basic parameters. Let's go with teams a and b, where A is the probability that team a wins, given that their goals for/game is greater than team bs:
+So we have our basic parameters. Let's go with teams a and b, where A is the probability that team a wins, given that their goals for/game is greater than team b's:
 
 $$P(A) = \frac{gf_a}{ag_a} - \frac{gf_b}{ag_b} + \frac12 $$
 
