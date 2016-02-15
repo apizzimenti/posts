@@ -24,4 +24,4 @@ The fact that both teams score the same amount of goals per game could lead one 
 
 $$ \frac{gf_a}{ag_a} - \frac{gf_b}{ag_b} + \frac12 = \frac35 - \frac36 + \frac12 = \frac{18}{30} $$
 
-From here, we choose a random number in the range $$0... ag_a \cdot ag_b$$, and if the number is 0-18, team a is the winner of the game. Otherwise, team b wins.
+From here, we choose a random number in the range $$0 \ ... \ ag_a \cdot ag_b$$, and if the number is 0-18, team a is the winner of the game. Otherwise, team b wins.
