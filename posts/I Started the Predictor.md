@@ -10,7 +10,7 @@ $gf_i = $ goals for/game for team i
 
 $ga_i = $ goals against/game for team i
 
-$gf_i + ga_i = ag_i = $ average number of goals team i scores in a game team i plays
+$gf_i + ga_i = ag_i = $ average number of goals in a game team i plays
 
 $\frac{gf_i}{ag_i} = $ probability that team i will score $gf_i$ goals in a game where $ag_i$ goals are scored
 
