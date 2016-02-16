@@ -1,8 +1,8 @@
 
 ### Hi there
 I'm Anthony, and I do web, software, and mobile development. I'll go into my work later, so for now I'll tell you about
-myself. I'm a comp sci student currently working at the University of Iowa ITS. I love hockey, people, math, code, and 
-(especially) food.
+myself. I'm a comp sci student at West Senior High in Iowa City currently working at the University of Iowa ITS. 
+I love hockey, people, math, code, and (especially) food.
 
 ### Work
 I love what I do and I try to enjoy every day no matter the challenges. The best part is that I actually learn something
