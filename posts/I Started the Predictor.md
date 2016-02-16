@@ -27,4 +27,4 @@ The fact that both teams score the same amount of goals per game could lead one 
 
 $$ \frac{gf_a}{ag_a} - \frac{gf_b}{ag_b} + \frac12 = \frac35 - \frac25 + \frac12 = \frac{7}{10} $$
 
-From here, we choose a random number in the range $0 \ ... \ 10 $, and if the number is 0-7, team a is the winner of the game. Otherwise, team b wins.
+From here, we choose a random number $n$ in the range $0 \ ... \ 10 $, and if $ 0 \leq n \leq 7 $, team a is the winner of the game. Otherwise, team b wins.
