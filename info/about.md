@@ -1,3 +1,4 @@
+
 ### Hi there
 I'm Anthony, and I do web, software, and mobile development. I'll go into my work later, so for now I'll tell you about
 myself. I'm a comp sci student currently working at the University of Iowa ITS. I love hockey, people, math, code, and 
