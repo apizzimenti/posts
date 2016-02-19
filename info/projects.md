@@ -1,6 +1,7 @@
 ## My Work
 I have a few different types of projects, both personal and through work. I'll walk you through some of them.
 
+
 ### [cli-weather](https://github.com/apizzimenti/cli-weather) (personal - software/web)
 This is by far my most personal project. Before winter break 2015-2016, I was feeling a little burned out after a lot of
 schoolwork and poor time management. So I decided to take on a medium-scale node module project.
@@ -94,3 +95,9 @@ doing it in Python this time around because it's better for data manipulation an
 **Status**: _planning_
 
 **Due for Completion**: _by the first game of the playoffs_
+
+
+### This site
+Check my blog for the whole story, but I wrote this entire site. It's hosted from an AWS EC2 instance running Ubuntu, and files are served with a Node/Express setup. All visual elements are done by Angular, and all the content is drawn through lots of API calls to GitHub.
+
+**Status**: _never done_
