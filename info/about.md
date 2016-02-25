@@ -1,5 +1,5 @@
 
-<center><img src="https://dl.dropbox.com/s/0uyly3hr30l28w5/Photo%20Aug%2008%2C%203%2009%2026%20PM.jpeg?dl=0" style="height: 150px; width: 300px"/></center>
+<center><img src="https://dl.dropbox.com/s/0uyly3hr30l28w5/Photo%20Aug%2008%2C%203%2009%2026%20PM.jpeg?dl=0" style="height: 200px; width: 300px"/></center>
 (I'm the one on the right)
 
 ### Hi there
