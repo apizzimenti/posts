@@ -1,4 +1,7 @@
 
+<center><img src="https://dl.dropbox.com/s/0uyly3hr30l28w5/Photo%20Aug%2008%2C%203%2009%2026%20PM.jpeg?dl=0" style="height: 150px; width: 300px"/></center>
+(I'm the one on the right)
+
 ### Hi there
 I'm Anthony, and I do web, software, and mobile development. I'll go into my work later, so for now I'll tell you about
 myself. I'm a comp sci student at West Senior High in Iowa City currently working at the University of Iowa ITS. 
@@ -20,8 +23,8 @@ Other than that, I have an old iPhone 5 and a super long cable.
 
 Programming languages:
 * JavaScript
-    * TypeScript
     * Node
+    * TypeScript
     * Phaser (pretty cool)
 * Python
 * TeX (LaTeX)

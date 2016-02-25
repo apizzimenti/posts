@@ -41,7 +41,7 @@ if there is no `order` property on an object, Chrome renders the properties in a
 I had to figure out a way to effectively get through the properties of an object and their subproperties but retain order.
 Turns out that sets are cool, so I changed some things over to arrays and modified this code (written by another developer
 who shall remain nameless):
-
+    
 ```
 for (var headingGroup in myData.menu) {
         for (var interactions in myData.menu[headingGroup]) {
