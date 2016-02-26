@@ -1,65 +1,32 @@
+<center><img src='https://dl.dropbox.com/s/apzqgr25t43yzcc/Photo%20Feb%2025%2C%207%2050%2032%20PM.jpg?dl=0' style='height: 300px; width: 400px'/></center>
+<center>(for clarity's sake, I'm the one on the left)</center>
 
-<center><img src="https://dl.dropbox.com/s/0uyly3hr30l28w5/Photo%20Aug%2008%2C%203%2009%2026%20PM.jpeg?dl=0" style="height: 200px; width: 300px" class="img-thumbnail"/></center>
-(I'm the one on the right)
+## Me
+-----
+Hi, I'm Anthony. I'm an application and web dev at the University of Iowa ITS. I go to West High and the University of Iowa as a comp sci student.
 
-### Hi there
-I'm Anthony, and I do web, software, and mobile development. I'll go into my work later, so for now I'll tell you about
-myself. I'm a comp sci student at West Senior High in Iowa City currently working at the University of Iowa ITS. 
-I love hockey, people, math, code, and (especially) food.
+I am an avid hockey player and Detroit Red Wings fan (LGRW!). I love food, math, my family and friends, and *The Office*.
 
-### Work
-I love what I do and I try to enjoy every day no matter the challenges. The best part is that I actually learn something
-new every day, and I can apply that anywhere.
+### Background
+I've been programming since I was 15 and wanted to learn to make my own website. This got me into a wide variety of web development stuff and drove me into taking the inroductory comp sci course at my high school and then math courses at the University of Iowa. In September 2015 (right on my birthday), I was offered a position at the University of Iowa Information Technology Services as a developer.
 
-### My Stuff
-I have a lot of gear that I love to use, so here goes: I use a MacBook Air from 2012, given to me to use by the UIowa ITS.
-It's a nice machine, but it's not exactly personal, so I'm going to upgrade my personal machine to a MacBook Pro. I have
-a few mice that I like, and they are the Razer Abyssus and the CM Storm Spawn (from my *StarCraft* days). I also have a
-Ducky Zero mechanical keyboard with brown Cherry MX switches. My headphones are Sennheiser HD 558s, and they are the most
-amazing headphones I've ever owned. I'm a music fan (isn't everyone?), so I wanted a great audio experience for a good price.
-Other than that, I have an old iPhone 5 and a super long cable.
+### Currently
+Firstly, I like what I do. I get to go to work every day and not work - I just have fun. I try to keep my programming life well-balanced, and so I maintain my own personal [projects](http://apizzimenti.com/#/projects), most notably a weather cli (this was developed so I could be lazier than I already am). I get to learn something new every day, and nobody can pass that up.
 
-### My favorite things
+### Programming
+I work primarily in JavaScript, both backend and frontent. In order, my languages go:
 
-Programming languages:
 * JavaScript
     * Node
     * TypeScript
-    * Phaser (pretty cool)
 * Python
-* TeX (LaTeX)
+* TeX (if that counts)
 
-Websites
-* reddit
-* github
-* stackoverflow (just for the help, not the people)
+Even though some don't, I really enjoy JavaScript and all its quirks. I love [this talk](https://www.destroyallsoftware.com/talks/wat) on js (warning: funny). It's a tough little language, and I like using it.
 
-Shows
-* *The Office*
-* Jake and Amir
+I also like Python quite a bit. Its really large standard library and huge variety of other modules make it a go-to for data manipulation and scientific/mathematical programming.
 
-Apps
-* Slack
-* Quiver
-* WebStorm
-* PyCharm
-* TeXShop
-* Sleep Timer (excellent)
+$\TeX$ is the most common math typesetting language, and I use it regularly.
 
-Foods
-* Fettuccine alfredo
-* Peanut chicken (or chicken with peanut sauce)
-* Sushi
-* Bubble tea
-* Any variety of chocolate, especially dark
-* cashews
-* tortilla chips
-
-Video Games
-* *StarCraft II*
-* *StarCraft: Brood War*
-* *Mario Kart Wii*
-* *Super Smash Bros. Brawl*
-
-People
-* my family and friends
+### Contact
+If you have any questions, you can [contact me](http://apizzimenti.com/#/contact).
