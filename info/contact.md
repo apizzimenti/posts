@@ -9,6 +9,10 @@ I'm also on <a href="//plus.google.com/u/0/112585379515479404991?prsrc=3"
 <img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/>
 </a>
 
-email:
+You can also find me on [Facebook](http://facebook.com/anthony.pizzimenti2) (I don't have a cool button because Facebook has weird embeddables).
+
+If you _really_ want to, you can find me on [Instagram](https://www.instagram.com/apizzimenti/).
+
+You can also email me here:
 * pizzimentianthony@gmail.com (primary)
 * anthony-pizzimenti@uiowa.edu (work)
