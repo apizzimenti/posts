@@ -3,7 +3,7 @@
 
 ## Me
 -----
-Hi, I'm Anthony. I'm an software and web dev at the University of Iowa ITS. I go to West High and the University of Iowa as a comp sci student.
+Hi, I'm Anthony. I'm a software and web dev at the University of Iowa ITS. I go to West High and the University of Iowa as a comp sci student.
 
 I am an avid hockey player and Detroit Red Wings fan (LGRW!). I love food, math, my family and friends, and *The Office*.
 
