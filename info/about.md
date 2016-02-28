@@ -9,7 +9,8 @@ I am an avid hockey player and Detroit Red Wings fan (LGRW!). I love food, math,
 
 ### Background
 I've been programming since I was 15 and wanted to learn to make my own website. This got me into a wide variety of web development stuff
- and drove me into taking the introductory comp sci course at my high school and then math courses at the University of Iowa. In September 2015 (right on my birthday), I was offered a position at the University of Iowa Information Technology Services as a developer.
+ and drove me into taking the introductory comp sci course at my high school and then math courses at the University of Iowa. In September 
+ 2015 (right on my birthday), I was offered a position at the University of Iowa Information Technology Services as a developer.
 
 ### Currently
 Firstly, I like what I do. I get to go to work every day and not work - I just have fun. I try to keep my programming life well-balanced,
