@@ -3,12 +3,12 @@
 
 ## Me
 -----
-Hi, I'm Anthony. I'm an application and web dev at the University of Iowa ITS. I go to West High and the University of Iowa as a comp sci student.
+Hi, I'm Anthony. I'm an software and web dev at the University of Iowa ITS. I go to West High and the University of Iowa as a comp sci student.
 
 I am an avid hockey player and Detroit Red Wings fan (LGRW!). I love food, math, my family and friends, and *The Office*.
 
 ### Background
-I've been programming since I was 15 and wanted to learn to make my own website. This got me into a wide variety of web development stuff and drove me into taking the inroductory comp sci course at my high school and then math courses at the University of Iowa. In September 2015 (right on my birthday), I was offered a position at the University of Iowa Information Technology Services as a developer.
+I've been programming since I was 15 and wanted to learn to make my own website. This got me into a wide variety of web development stuff and drove me into taking the introductory comp sci course at my high school and then math courses at the University of Iowa. In September 2015 (right on my birthday), I was offered a position at the University of Iowa Information Technology Services as a developer.
 
 ### Currently
 Firstly, I like what I do. I get to go to work every day and not work - I just have fun. I try to keep my programming life well-balanced, and so I maintain my own personal [projects](http://apizzimenti.com/#/projects), most notably a weather cli (this was developed so I could be lazier than I already am). I get to learn something new every day, and nobody can pass that up.
