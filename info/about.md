@@ -8,13 +8,16 @@ Hi, I'm Anthony. I'm a software and web dev at the University of Iowa ITS. I go 
 I am an avid hockey player and Detroit Red Wings fan (LGRW!). I love food, math, my family and friends, and *The Office*.
 
 ### Background
-I've been programming since I was 15 and wanted to learn to make my own website. This got me into a wide variety of web development stuff and drove me into taking the introductory comp sci course at my high school and then math courses at the University of Iowa. In September 2015 (right on my birthday), I was offered a position at the University of Iowa Information Technology Services as a developer.
+I've been programming since I was 15 and wanted to learn to make my own website. This got me into a wide variety of web development stuff
+ and drove me into taking the introductory comp sci course at my high school and then math courses at the University of Iowa. In September 2015 (right on my birthday), I was offered a position at the University of Iowa Information Technology Services as a developer.
 
 ### Currently
-Firstly, I like what I do. I get to go to work every day and not work - I just have fun. I try to keep my programming life well-balanced, and so I maintain my own personal [projects](http://apizzimenti.com/#/projects), most notably a weather cli (this was developed so I could be lazier than I already am). I get to learn something new every day, and nobody can pass that up.
+Firstly, I like what I do. I get to go to work every day and not work - I just have fun. I try to keep my programming life well-balanced,
+ and so I maintain my own personal [projects](http://apizzimenti.com/#/projects), most notably a weather cli (this was developed so I could
+  be lazier than I already am). I get to learn something new every day, and nobody can pass that up.
 
 ### Programming
-I work primarily in JavaScript, both backend and frontent. In order, my languages go:
+I work primarily in JavaScript, both backend and frontend. In order, my languages go:
 
 * JavaScript
     * Node
@@ -22,9 +25,10 @@ I work primarily in JavaScript, both backend and frontent. In order, my language
 * Python
 * TeX (if that counts)
 
-Even though some don't, I really enjoy JavaScript and all its quirks. I love [this talk](https://www.destroyallsoftware.com/talks/wat) on js (warning: funny). It's a tough little language, and I like using it.
+Even though some don't, I really enjoy JavaScript and all its quirks. I love [this talk](https://www.destroyallsoftware.com/talks/wat) on js 
 
-I also like Python quite a bit. Its really large standard library and huge variety of other modules make it a go-to for data manipulation and scientific/mathematical programming.
+I also like Python quite a bit. Its really large standard library and huge variety of other modules make it a go-to for data manipulation 
+and scientific/mathematical programming.
 
 $\TeX$ is the most common math typesetting language, and I use it regularly.
 
