@@ -1,4 +1,4 @@
-<center><img src='https://dl.dropbox.com/s/apzqgr25t43yzcc/Photo%20Feb%2025%2C%207%2050%2032%20PM.jpg?dl=0' style='height: 300px; width: 400px' class='img-round'/></center>
+<center><img src='https://dl.dropbox.com/s/apzqgr25t43yzcc/Photo%20Feb%2025%2C%207%2050%2032%20PM.jpg?dl=0' style='height: 300px; width: 400px' class='img-circle'/></center>
 <center>(for clarity's sake, I'm the one on the left)</center>
 
 ## Me
