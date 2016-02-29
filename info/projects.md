@@ -44,16 +44,16 @@ who shall remain nameless):
     
 ```
 for (var headingGroup in myData.menu) {
-        for (var interactions in myData.menu[headingGroup]) {
-            for (var i = 0; i < myData.menu[headingGroup][interactions].sections.length; i++) {
-                for (var section in myData.menu[headingGroup][interactions].sections[i].items) {
-                    myData.menu[headingGroup][interactions].sections[i].items.forEach(function (item) {
-                        all.push(item);
-                    });
-                }
+    for (var interactions in myData.menu[headingGroup]) {
+        for (var i = 0; i < myData.menu[headingGroup][interactions].sections.length; i++) {
+            for (var section in myData.menu[headingGroup][interactions].sections[i].items) {
+                myData.menu[headingGroup][interactions].sections[i].items.forEach(function (item) {
+                    all.push(item);
+                });
             }
         }
     }
+}
 ```
 
 I'm horrified that I had to write it, but sometimes hardcoding is the best answer. I worked out a recursive method to map
