@@ -3,6 +3,16 @@ I have a few different types of projects, both personal and through work. I'll w
 
 
 ### [cli-weather](https://github.com/apizzimenti/cli-weather) (personal - software/web)
+
+[![NPM](https://nodei.co/npm/cli-weather.png?compact=true)](https://nodei.co/npm/cli-weather/)
+
+[![npm](https://img.shields.io/npm/l/cli-weather.svg?style=flat-square)]()
+[![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)]()
+[![node](https://img.shields.io/node/v/gh-badges.svg?style=flat-square)]()
+[![Build status](https://img.shields.io/travis/apizzimenti/cli-weather.svg?style=flat-square)](https://travis-ci.org/apizzimenti/cli-weather)
+[![npm](https://img.shields.io/npm/dt/cli-weather.svg?style=flat-square)]()
+[![GitHub issues](https://img.shields.io/github/issues-raw/apizzimenti/cli-weather.svg?style=flat-square)]()
+
 This is by far my most personal project. Before winter break 2015-2016, I was feeling a little burned out after a lot of
 schoolwork and poor time management. So I decided to take on a medium-scale node module project.
 
