@@ -45,6 +45,8 @@ lot of people.
 
 Practice your programming skills and keep them sharp.
 
+It’s okay to make mistakes, and my friend David Wu said that “the smartest people you will ever know are those who learn from their successes and their failures”. This is unbelievably true, and it is much better to make everything a learning experience.
+
 Finally, this class is a great time, so working hard will only help.
 
 If you have questions, my email is on [this site](http://apizzimenti.com/#/contact) and
