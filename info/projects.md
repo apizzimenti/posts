@@ -33,6 +33,16 @@ a bunch of function collections and callback hell. The OOP model makes JavaScrip
 
 **Due for Completion**: _none_
 
+### [simple-engine](https://github.com/apizzimenti/simple-engine-ui) (personal - software/web)
+This project makes it easy to create text-based games. The built-in ui functionality is clean (with more themes coming!)
+and the core module can be used to quickly generate JSON maps of an HTML page. This was developed in part for Planet Z.
+The core module is available on `pip` and the ui module is available on `bower`.
+
+**Status**: *v2.4 of the core module is out as well as v0.2.7 of the ui module*.
+
+**Due for Completion**: *none*
+
+
 ### Planet Z (work - web)
 This project was fun for me because I got to write a video game. Not the engine, of course, because Phaser took care of
 that. I used the isometric plugin to make a 2.5-d gameplay window. The physics and model interactions were really tough
@@ -42,7 +52,7 @@ The rest of the interactions are all in Angular, and so it's a really slick SPA.
 
 **Status**: _in progress_
 
-**Due for Completion**: _April 2016_
+**Due for Completion**: _August 2016_
 
 ### Sounds of Speech (work - mobile)
 I got to work with Jerry Moon, a speech pathologist and ref in my hockey league. This was a fun app to help with on
@@ -83,7 +93,7 @@ function setValues(object, stack) {
 }
 ```
 
-The app is now working in its entirety, and is available on both the App Store and the Google Play Store. Bravo.
+The app is now working in its entirety, and is available on both the App Store and the Google Play Store.
 
 **Status**: _complete_
 
