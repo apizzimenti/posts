@@ -16,6 +16,10 @@ I've been programming since I was 15 and wanted to learn to make my own website.
 Firstly, I like what I do. I get to go to work every day and have fun. I try to keep my programming life well-balanced,
  and so I maintain my own personal [projects](http://apizzimenti.com/#/projects), most notably a weather cli (this was developed so I could
  be lazier than I already am). I get to learn something new every day, and nobody can pass that up.
+ 
+### github
+
+<div class="github-widget" data-username="apizzimenti"></div>
 
 ### Programming
 I work primarily in JavaScript, both backend and frontend. In order, my languages go:
