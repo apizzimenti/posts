@@ -20,6 +20,7 @@ Firstly, I like what I do. I get to go to work every day and have fun. I try to 
 ### github
 
 <div class="github-widget" data-username="apizzimenti"></div>
+<script src="https://npmcdn.com/github-card@1.2.0/dist/widget.js">
 
 ### Programming
 I work primarily in JavaScript, both backend and frontend. In order, my languages go:
