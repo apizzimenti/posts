@@ -1,4 +1,4 @@
-** May 13, 2016 **
+**May 13, 2016**
 
 There are two types of advice that I can give any web person coming to the
 _West Side Story_: job-specific and general.
