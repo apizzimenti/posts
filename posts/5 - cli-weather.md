@@ -8,4 +8,3 @@ mind that I'm very dedicated to keeping this little npm module running for a lon
 
 I have a few things on the agenda, including a possible rewrite using TypeScript for a little more modularity and more
 ability to use the module as an api.
-
