@@ -54,8 +54,4 @@ However, when flipping two coins, it's a bit different.
 Even though each flip doesn't depend on the outcome of the other
 flips, the outcomes are not mutually exclusive.
 
-Let's explore the proof!
-
-<center><img src='https://dl.dropbox.com/s/p68mbm4kduwj3lh/pf-1.jpg?dl=0?dl=0' style="width: 700px" /></center>
-<center><img src='https://dl.dropbox.com/s/r7ntnt7l0ayxvpz/pf-2.jpg?dl=0' style="width: 700px" /></center>
-<center><img src='https://dl.dropbox.com/s/z53vhfi0r61iajo/pf-3.jpg?dl=0' style="width: 700px" /></center>
+[Let's explore the proof!](https://www.dropbox.com/s/3unknztv4hwgulg/Ind_Events_Pf.pdf?dl=0)
