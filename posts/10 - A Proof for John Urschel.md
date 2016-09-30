@@ -41,9 +41,9 @@ is (you guessed it) $ \frac{1}{52} $.
 After you've picked out the 10 of Diamonds, there are 51 cards left. Since
 you've removed the possibility of picking another 10 of Diamonds
 (since another one doesn't exist and you picked the only one from
-the deck), the sample space $C$ shrinks by one outcome. Now, the
+the deck), the sample space $C$ shrinks by one outcome. Now,
  $C$ only has 51 possible outcomes. The probability of
-picking the King of Spades is $ \frac{1}{51} $.
+picking any other card, say, the King of Spades, is $ \frac{1}{51} $.
 
 This example illustrates *independent* and *mutually exclusive*
 events. Since you can't pick a King of Hearts and then another
