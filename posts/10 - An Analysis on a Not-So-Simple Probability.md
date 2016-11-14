@@ -1,15 +1,10 @@
 **September 29, 2016**
 
-So there's a mathematics PhD student at MIT named John Urschel. For
-anyone that seems to vaguely remember his name, he's also a guard
-for the Baltimore Ravens.
-
-He publishes to *The Player's Tribune*, a platform that gives 
-a voice to athletes who are, oftentimes, judged only by their
-performance in sport and their extracurricular endeavors.
+So there's a mathematics PhD student at MIT named John Urschel. For any football fans,
+he's also a guard for the Baltimore Ravens.
 
 In any case, Urschel posts weekly math challenges to try and
-get readers of the *Tribune* to engage their math brains. I'm
+get readers of *The Player's Tribune* to engage their math brains. I'm
 specifically responding to the third question in
 [this post.](http://www.theplayerstribune.com/john-urschel-morning-math-challenge-week-2/)
 
