@@ -3,7 +3,8 @@
 
 ## Me
 -----
-Hi, I'm Anthony. I'm a software and web dev at the University of Iowa ITS. I go to the University of Iowa as a comp sci student.
+Hi, I'm Anthony. I'm a software and web dev at the University of Iowa ITS. I go to the University of Iowa as a math and
+computer science student.
 
 I am an avid hockey player and Detroit Red Wings fan (LGRW!). I love food, math, my family and friends, and *The Office*.
 
@@ -33,7 +34,7 @@ I work primarily in JavaScript, both backend and frontend. In order, my language
 
 I love [this talk](https://www.destroyallsoftware.com/talks/wat) on js.
 
-$\TeX$ is the most common math typesetting language, and I use it regularly.
+I also really enjoy the [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw) youtube channel.
 
 ### Contact
 If you have any questions, you can [contact me](http://apizzimenti.com/#/contact).
