@@ -49,4 +49,4 @@ However, when flipping two coins, it's a bit different.
 Even though each flip doesn't depend on the outcome of the other
 flips, the outcomes are not mutually exclusive.
 
-[Let's explore the proof!](https://www.dropbox.com/s/3unknztv4hwgulg/Ind_Events_Pf.pdf?dl=0)
+[Let's explore the proof!](https://www.dropbox.com/s/mnut8z7ffxkkz8e/Ind_Events_Pf.pdf?dl=0
