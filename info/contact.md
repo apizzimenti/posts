@@ -9,6 +9,7 @@ email on them. Otherwise:
         width: 600px;
         margin-left: auto;
         margin-right: auto;
+        border: 1px solid black;
     }
 </style>
 
