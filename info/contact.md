@@ -44,6 +44,6 @@ email on them. Otherwise:
     </tr>
     <tr>
         <td>Instagram</td>
-        <td><a href=https://www.instagram.com/apizzimenti/>apizzimenti</a>apizzimenti</td>
+        <td><a href=https://www.instagram.com/apizzimenti>apizzimenti</a></td>
     </tr>
 <table>
