@@ -1,7 +1,4 @@
-<center><img src='https://dl.dropbox.com/s/evw9xi8fkdx6ov9/IMG_1438.JPG?dl=0' style='height: 426px; width: 320px' class='img-thumbnail'/></center>
-<center>Myself and my lovely girlfriend Allie :)</center>
-
-## Me
+# Me
 -----
 Hi, I'm Anthony. I'm a software and web dev at the University of Iowa ITS. I go to the University of Iowa as a math and
 computer science student.
