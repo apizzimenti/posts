@@ -28,7 +28,7 @@ email on them. Otherwise:
     </tr>
     <tr>
         <td>LinkedIn</td>
-        <td><a href=www.linkedin.com/in/anthony-pizzimenti>Anthony Pizzimenti</a></td>
+        <td><a href=https://www.linkedin.com/in/anthony-pizzimenti>Anthony Pizzimenti</a></td>
     </tr>
     <tr>
         <td>CV, Resume</td>
