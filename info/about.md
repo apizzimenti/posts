@@ -1,4 +1,4 @@
-<center><img src='https://dl.dropbox.com/s/evw9xi8fkdx6ov9/IMG_1438.JPG?dl=0' style='height: 300px; width: 400px' class='img-thumbnail'/></center>
+<center><img src='https://dl.dropbox.com/s/evw9xi8fkdx6ov9/IMG_1438.JPG?dl=0' style='height: 426px; width: 320px' class='img-thumbnail'/></center>
 <center>Myself and my lovely girlfriend Allie :)</center>
 
 ## Me
