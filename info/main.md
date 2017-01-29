@@ -4,8 +4,9 @@
         outline: none;
         background: #000000;
         border: none;
-        padding: 15px;
+        padding: 10px;
         border-radius: 5px;
+        margin: 10px;
     }
     
     a {
