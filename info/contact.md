@@ -6,7 +6,7 @@ email on them. Otherwise:
 
 <style>
     table {
-        width: 600px;
+        width: auto;
         margin-left: auto;
         margin-right: auto;
         border: 1px solid black;
