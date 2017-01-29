@@ -6,10 +6,14 @@ email on them. Otherwise:
 
 <style>
     table {
-        width: auto;
+        width: 400px;
         margin-left: auto;
         margin-right: auto;
-        border: 1px solid black;
+        padding: 10px
+    }
+    
+    th, td {
+        border-bottom: 1px solid #ddd;
     }
 </style>
 
