@@ -6,7 +6,7 @@
 Hi, I'm Anthony. I'm a software and web dev at the University of Iowa ITS. I go to the University of Iowa as a math and
 computer science student.
 
-I am an avid hockey player and Detroit Red Wings fan (LGRW!). I love food, math, my family and friends, and *The Office*.
+I am an avid hockey player and Detroit Red Wings fan (LGRW!). I love my family and friends, pool, math, and *The Office*.
 
 ### Background
 I've been programming since I was 15 and wanted to learn to make my own website. This got me into a wide variety of web development stuff
@@ -30,7 +30,7 @@ I work primarily in JavaScript, both backend and frontend. In order, my language
     * Node
     * TypeScript
 * Python
-* TeX (if that counts)
+* LaTeX (if that counts)
 
 I love [this talk](https://www.destroyallsoftware.com/talks/wat) on js.
 
