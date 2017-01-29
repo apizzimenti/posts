@@ -26,7 +26,7 @@ email on them. Otherwise:
         <td><a href=www.linkedin.com/in/anthony-pizzimenti>Anthony Pizzimenti</a></td>
     </tr>
     <tr>
-        <td>CV, Résumé</td>
+        <td>CV, Resume</td>
         <td><a href=https://www.dropbox.com/s/t40jdqz0sqo7h35/CV.pdf?dl=0>PDF</a>, <a href=https://www.dropbox.com/s/z9pf0tlebfatpsn/Resume.pdf?dl=0>PDF</a></td>
     </tr>
     <tr>
