@@ -1,4 +1,4 @@
-**February 15, 2017**
+**February 28, 2017**
 
 This spring, my university's chapter of the ACM is having a competition. Whoever makes the coolest Raspberry Pi project will win $250 and some Microsoft stuff. In the words of Stanley Hudson:
 
