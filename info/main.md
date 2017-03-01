@@ -32,8 +32,8 @@
 </p>
 
 <div id=buttons>
-    <button><a href=http://apizzimenti.com/#/blog>Blog</a></button>
-    <button><a href=http://apizzimenti.com/#/about>About</a></button>
-    <button><a href=http://apizzimenti.com/#/contact>Contact Me</a></button>
+    <button><a href="http://apizzimenti.com/#/blog">Blog</a></button>
+    <button><a href="http://apizzimenti.com/#/about">About</a></button>
+    <button><a href="http://apizzimenti.com/#/contact">Contact Me</a></button>
 </div>
 
