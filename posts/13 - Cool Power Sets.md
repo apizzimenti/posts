@@ -93,7 +93,7 @@ bruteForceBinary(V):
 
 We start out by iterating on $[2^{n-1} - 1, 2^n - 1]$. From `(1)`, we check if we are currently below the lower bound; if not, we continue. We convert each integer to binary and generate its isomorphic set. In `(2)`, we check if this set is a vertex cover; if so, add the set and continue.
 
-We showed earlier that if we have an iteration $i$, then the binary representation of $ \lceil \frac i2 \rceil - 1 $ is a subset of the binary representation of $i$; this of course applies to the isomorphism as well. This is reflected in `(3)`, as we continually iterate until we run into a set where the set is *not* a cover, where we then set the lower bound to $i$'s current value, so that we don't search any subsets below it. Over the maximum of $n \cdot \log_2 n$ iterations, this bound will only increase (unless all subsets are a vertex cover, which is the case in all $K$-complete graphs.
+We showed earlier that if we have an iteration $i$, then the binary representation of $ \lceil \frac i2 \rceil - 1 $ is a subset of the binary representation of $i$; this of course applies to the isomorphism as well. This is reflected in `(3)`, as we continually iterate until we run into a set where the set is *not* a cover, where we then set the lower bound to $i$'s current value, so that we don't search any subsets below it. Over the maximum of $n \cdot \log_2 n$ iterations, this bound will only increase (unless all subsets are a vertex cover, which is the case in all $K$-complete graphs).
 
 This holds for all iterations $i \in [2^{n - 1} - 1, 2^n - 1]$. Additionally, resetting this bound guarantees that we will find the minimal subset. On the average case, we will only take $\log_2 n $ steps per iteration $i$, which leads to:
 
