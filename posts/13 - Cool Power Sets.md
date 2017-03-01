@@ -7,6 +7,7 @@ In the latest homework for my Algorithms class, we had a series of questions dea
 In the context of the homework, we were supposed to test out two other algorithms' solutions and compare them to an optimal solution. This, of course, involves computing an optimal solution. We weren't asked to test them on graphs $G = (V, E)$ where $|V| \leq 10$ - the first graph we computed was a randomized algorithm-generated graph where $|V| \leq 2^{20}$. Bear in mind that the largest storable integer is $2^{31} - 1$. For the sake of context, let's see the number in both base-10 and base-2.
 
 $$ (2^{31} - 1)_{(10)} =  2147483647 $$
+
 $$ (2^{31} - 1)_{(2)} = 1111111111111111111111111111111 $$
 
 That's right... 31 ones. Hold onto this concept, as it'll come in handy later.
@@ -25,6 +26,7 @@ This is easier said than done, however. What we're generating is called a [Power
 For example, if we have a set $ Q =\{A, B, C\} $, $ |Q| = 3 $ the power set is:
 
 $$ \wp(Q) = \big\{ \{\emptyset\}, \{A\}, \{B\}, \{C\}, \{A, B\}, \{A, C\}, \{B, C\}, \{A, B, C\} \big\} $$
+
 $$ | \wp (Q) | = 8 = 2^3$$
 
 And since we know that there are $2^n$ subsets, is there some connection we can make between the representation of subsets and numbers themselves?
@@ -36,12 +38,19 @@ Think about numbers themselves. $\forall n \in \mathbb{N}$, $n$ is represented u
 Take a look at the numbers 0 - 7:
 
 $$ 0_{(2)} = 000 $$
+
 $$ 1_{(2)} = 001 $$
+
 $$ 2_{(2)} = 010 $$
+
 $$ 3_{(2)} = 011 $$
+
 $$ 4_{(2)} = 100 $$
+
 $$ 5_{(2)} = 101 $$
+
 $$ 6_{(2)} = 110 $$
+
 $$ 7_{(2)} = 111 $$
 
 Can you see the connection from $ \wp (Q) $ to these binary numbers? There is actually a one-to-one correspondence between the power set and these numbers. A $1$ indicates the presence of an element and a $0$ indicates the absence of an element. Since each number (or subset) is unique, and there are the same number of subsets in $ \wp (Q) $ and the numbers $[0, 2^n - 1]$, and each subset is of the same size as its morphism, we can establish an isomorphism.
