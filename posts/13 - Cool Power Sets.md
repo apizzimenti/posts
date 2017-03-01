@@ -77,10 +77,10 @@ bruteForceBinary(V):
 				bits := binary(i)
 				set	:= make subset out of bits
 				
-				if set is a cover:
+				if set is a cover:				// (2)
 					sets.add(set)
 				else:
-					k := i						// (2)
+					k := i
 				
 				i := ceil(i / 2) - 1			// (3)
 		
@@ -91,12 +91,12 @@ bruteForceBinary(V):
 	return sets[0] 	// returns smallest vertex cover	
 ```
 
-We start out by iterating backwards from $2^n - 1$, which will always be a string of ones that has $n$ ones in it ( $7_{(2)} = 111, \ n = 3$ ), which represents the largest subset of $V$ (which is, incidentally, $V$). In `(2)`, we progressively remove one element from the set by dividing by two ( $ \lfloor \frac 72 \rfloor = 3, \ 3_{(2)} = 011$ ). We can do this until we run into a set where the set is *not* a cover, where we then set the lower bound to $i$, so that we don't search any subsets below it.
+We start out by iterating on $[2^{n-1} - 1, 2^n - 1]$. From `(1)`, we check if we are currently below the lower bound; if not, we continue. We convert each integer to binary and generate its isomorphic set. In `(2)`, we check if this set is a vertex cover; if so, add the set and continue.
+
+We showed earlier that if we have an iteration $i$, then the binary representation of $ \lceil \frac i2 \rceil - 1 $ is a subset of the binary representation of $i$; this of course applies to the isomorphism as well. This is reflected in `(3)`, as we continually iterate until we run into a set where the set is *not* a cover, where we then set the lower bound to $i$'s current value, so that we don't search any subsets below it. Over the maximum of $n \cdot \log_2 n$ iterations, this bound will only increase (unless all subsets are a vertex cover, which is the case in all $K$-complete graphs.
 
 This holds for all iterations $i \in [2^{n - 1} - 1, 2^n - 1]$. Additionally, resetting this bound guarantees that we will find the minimal subset. On the average case, we will only take $\log_2 n $ steps per iteration $i$, which leads to:
 
 $$ \textbf O (n \cdot \log_2 n) = \textbf O (\log_2 n^n)$$
 
 This helps greatly with efficiency; the average runtime of this algorithm on a graph of size $2^{20}$ was just over a second.
-
-#end
