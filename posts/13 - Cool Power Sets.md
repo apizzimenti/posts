@@ -23,9 +23,9 @@ The first constraint is easily verifiable. If we have a set $ K \subseteq E $ su
 
 This is easier said than done, however. What we're generating is called a [Power Set](https://en.m.wikipedia.org/wiki/Power_set). If we have a set $S$, the power set of $S$ is the set of all subsets of $S$. For all sets, the size of the power set is $2^n$, where $n$ is the size of the set (think about it - each member of the set can either be in or not in any given subset).
 
-For example, if we have a set $ Q =\{A, B, C\} $, $ |Q| = 3 $ the power set is:
+For example, if we have a set $ Q = \{ A, B, C \} $, $ |Q| = 3 $ the power set is:
 
-$$ \wp(Q) = \{ \{\emptyset\}, \{A\}, \{B\}, \{C\}, \{A, B\}, \{A, C\}, \{B, C\}, \{A, B, C\} \} $$
+$$ \wp(Q) = \{ \{ \emptyset \}, \{ A \}, \{ B \}, \{ C \}, \{ A, B \}, \{ A, C \}, \{ B, C \}, \{ A, B, C \} \} $$
 
 
 $$ | \wp (Q) | = 8 = 2^3 $$
