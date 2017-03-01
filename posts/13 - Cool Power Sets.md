@@ -27,7 +27,8 @@ For example, if we have a set $ Q =\{A, B, C\} $, $ |Q| = 3 $ the power set is:
 
 $$ \wp(Q) = \big\{ \{\emptyset\}, \{A\}, \{B\}, \{C\}, \{A, B\}, \{A, C\}, \{B, C\}, \{A, B, C\} \big\} $$
 
-$$ | \wp (Q) | = 8 = 2^3$$
+
+$$ | \wp (Q) | = 8 = 2^3 $$
 
 And since we know that there are $2^n$ subsets, is there some connection we can make between the representation of subsets and numbers themselves?
 
