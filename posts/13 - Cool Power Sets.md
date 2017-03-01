@@ -25,7 +25,7 @@ This is easier said than done, however. What we're generating is called a [Power
 
 For example, if we have a set $ Q =\{A, B, C\} $, $ |Q| = 3 $ the power set is:
 
-$$ \wp(Q) = \big\{ \{\emptyset\}, \{A\}, \{B\}, \{C\}, \{A, B\}, \{A, C\}, \{B, C\}, \{A, B, C\} \big\} $$
+$$ \wp(Q) = { \{\emptyset\}, \{A\}, \{B\}, \{C\}, \{A, B\}, \{A, C\}, \{B, C\}, \{A, B, C\} } $$
 
 
 $$ | \wp (Q) | = 8 = 2^3 $$
