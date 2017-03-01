@@ -75,7 +75,7 @@ bruteForceBinary(V):
 			
 			while i > k:
 				bits := binary(i)
-				set	:= make subset out of bits
+				set := make subset out of bits
 				
 				if set is a vertex covering:	// (2)
 					covers.add(set)
@@ -99,4 +99,4 @@ This holds for all iterations $i \in [2^{n - 1} - 1, 2^n - 1]$. Additionally, re
 
 $$ \textbf O (n \cdot \log_2 n) = \textbf O (\log_2 n^n)$$
 
-This helps greatly with efficiency; the average runtime of this algorithm on a graph of size $2^{20}$ was just over a second.
+This helps greatly with efficiency; the average runtime of this algorithm on a graph with a power set of size $2^{20}$ was just over a second.
