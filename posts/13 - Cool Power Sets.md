@@ -25,7 +25,7 @@ This is easier said than done, however. What we're generating is called a [Power
 
 For example, if we have a set $ Q =\{A, B, C\} $, $ |Q| = 3 $ the power set is:
 
-$$ \wp(Q) = { \{\emptyset\}, \{A\}, \{B\}, \{C\}, \{A, B\}, \{A, C\}, \{B, C\}, \{A, B, C\} } $$
+$$ \wp(Q) = \{ \{\emptyset\}, \{A\}, \{B\}, \{C\}, \{A, B\}, \{A, C\}, \{B, C\}, \{A, B, C\} \} $$
 
 
 $$ | \wp (Q) | = 8 = 2^3 $$
@@ -91,7 +91,7 @@ bruteForceBinary(V):
 	return sets[0] 	// returns smallest vertex cover	
 ```
 
-We start out by iterating backwards from $2^n - 1$, which will always be a string of ones that has $n$ ones in it ( $7_{(2)} = 111, n = 3$ ), which represents the largest subset of $V$ (which is, incidentally, $V$). in `(2)`, we progressively remove one element from the set by dividing by two ($ \lfloor \frac 72 \rfloor = 3, \ 3_{(2)} = 011)$. We can do this until we run into a set where the set is *not* a cover, where we then set the lower bound to $i$, so that we don't search any subsets below it.
+We start out by iterating backwards from $2^n - 1$, which will always be a string of ones that has $n$ ones in it ( $7_{(2)} = 111, n = 3$ ), which represents the largest subset of $V$ (which is, incidentally, $V$ ). In `(2)`, we progressively remove one element from the set by dividing by two ( $ \lfloor \frac 72 \rfloor = 3, \ 3_{(2)} = 011$ ). We can do this until we run into a set where the set is *not* a cover, where we then set the lower bound to $i$, so that we don't search any subsets below it.
 
 This holds for all iterations $i \in [2^{n - 1} - 1, 2^n - 1]$. Additionally, resetting this bound guarantees that we will find the minimal subset. On the average case, we will only take $\log_2 n $ steps per iteration $i$, which leads to:
 
