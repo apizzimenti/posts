@@ -77,8 +77,8 @@ bruteForceBinary(V):
 				bits := binary(i)
 				set	:= make subset out of bits
 				
-				if set is a cover:				// (2)
-					sets.add(set)
+				if set is a vertex covering:	// (2)
+					covers.add(set)
 				else:
 					k := i
 				
@@ -87,8 +87,8 @@ bruteForceBinary(V):
 		else:
 			break
 			
-	sort(sets)
-	return sets[0] 	// returns smallest vertex cover	
+	sort(covers)
+	return covers[0] 	// returns smallest vertex cover	
 ```
 
 We start out by iterating on $[2^{n-1} - 1, 2^n - 1]$. From `(1)`, we check if we are currently below the lower bound; if not, we continue. We convert each integer to binary and generate its isomorphic set. In `(2)`, we check if this set is a vertex cover; if so, add the set and continue.
