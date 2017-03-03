@@ -71,11 +71,11 @@ email on them. Otherwise:
         <td><a href=https://www.dropbox.com/s/t40jdqz0sqo7h35/CV.pdf?dl=0>PDF</a>, <a href=https://www.dropbox.com/s/z9pf0tlebfatpsn/Resume.pdf?dl=0>PDF</a></td>
     </tr>
     <tr>
-        <td>Personal Email</td>
+        <td><a name="personal">(Personal Inquiry) Email</a></td>
         <td>pizzimentianthony@gmail.com</td>
     </tr>
     <tr>
-        <td>Primary Contact Email</td>
+        <td><a name="primary">Primary Contact Email</a></td>
         <td>anthony-pizzimenti@uiowa.edu</td>
     </tr>
     <tr>
@@ -89,7 +89,7 @@ email on them. Otherwise:
 I am also an [approved tutor for the Department of Computer Science](https://cs.uiowa.edu/resources/approved-tutors). I can tutor up to CS:2210 (2230 is en route). It changes from semester to semester, but here's my schedule:
 
 </br>
-
+</br>
 
 <table>
 	<thead>
@@ -132,3 +132,33 @@ I am also an [approved tutor for the Department of Computer Science](https://cs.
 </table>
 
 </br>
+</br>
+
+Here's my how-to for different modes of communication:
+
+</br>
+</br>
+
+<table>
+	<thead>
+		<tr>
+			<td>Mode</td>
+			<td>Instructions</td>
+		</tr>
+	</thead>
+	
+	<tr>
+		<td>Anything Paper</td>
+		<td>Drop it off at 14 MacLean Hall (or get it to the mailroom there) or stop by the ITS Helpdesk and ask that I get whatever you want to give me.</td>
+	</tr>
+	
+	<tr>
+		<td>Email</td>
+		<td>For anything to do with work or academics, send it to my <a href="#primary">University email</a>. Otherwise, send everything to my <a href="#personal">personal email</a>.</td>
+	</tr>
+	
+	<tr>
+		<td>In Person</td>
+		<td>Set up an appointment by email or come find my at my office. Go to the ITS Helpdesk during my aforementioned work hours and ask for me.</td>
+	</tr>
+</table>
