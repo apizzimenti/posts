@@ -90,6 +90,7 @@ I am also an [approved tutor for the Department of Computer Science](https://cs.
 
 </br>
 
+
 <table>
 	<thead>
 		<tr>
@@ -129,4 +130,5 @@ I am also an [approved tutor for the Department of Computer Science](https://cs.
 		<td>11:20am - 12:20pm </br> 1:30pm - 2:20pm </br> 3:30pm - 5:00pm</td>
 	</tr>
 </table>
+
 </br>
