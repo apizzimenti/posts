@@ -135,6 +135,7 @@ I am also an [approved tutor for the Department of Computer Science](https://cs.
 
 Here's my how-to for different modes of communication:
 
+
 </br>
 
 <table>
@@ -160,4 +161,5 @@ Here's my how-to for different modes of communication:
 		<td>Set up an appointment by email or come find my at my office. Go to the ITS Helpdesk during my aforementioned work hours and ask for me.</td>
 	</tr>
 </table>
+
 </br>
