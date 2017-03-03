@@ -4,7 +4,7 @@ In the latest homework for my Algorithms class, we had a series of questions dea
 
 **Remark.** *Polynomial Time.* Refers to some function $f$ such that $f(n) = \mathbf O (n^c)$ where $c \in \mathbb{R}$ as $n \rightarrow \infty$.
 
-In the context of the homework, we were supposed to test out two other algorithms' solutions and compare them to an optimal solution. This, of course, involves computing an optimal solution. We weren't asked to test them on graphs $G = (V, E)$ where $|V| \leq 10$ - the first graph we computed was a randomized algorithm-generated graph where $|V| \leq 2^{20}$. Bear in mind that the largest storable integer is $2^{31} - 1$. For the sake of context, let's see the number in both base-10 and base-2.
+In the context of the homework, we were supposed to test out two other algorithms' solutions and compare them to an optimal solution. This, of course, involves computing an optimal solution. We weren't asked to test them on graphs $G = (V, E)$ where $\wp(V)\leq 10$ - the first graph we computed was a randomized algorithm-generated graph where $\wp (V) \leq 2^{20}$. Bear in mind that the largest storable integer is $2^{31} - 1$. For the sake of context, let's see the number in both base-10 and base-2.
 
 $$ (2^{31} - 1)_{(10)} =  2147483647 $$
 
