@@ -4,7 +4,7 @@ I thoroughly enjoy communicating with anyone who has questions, comments, reques
 I can help provide. It's pretty easy to get in contact with me. The majority of my notes and papers have my university
 email on them. Otherwise:
 
-<span></span>
+</br>
 
 <style>
 
@@ -84,11 +84,11 @@ email on them. Otherwise:
     </tr>
 <table>
 
-<span></span>
+</br>
 
 I am also an [approved tutor for the Department of Computer Science](https://cs.uiowa.edu/resources/approved-tutors). I can tutor up to CS:2210 (2230 is en route). It changes from semester to semester, but here's my schedule:
 
-<span></span>
+</br>
 
 <table>
 	<thead>
@@ -129,4 +129,4 @@ I am also an [approved tutor for the Department of Computer Science](https://cs.
 		<td>11:20am - 12:20pm </br> 1:30pm - 2:20pm </br> 3:30pm - 5:00pm</td>
 	</tr>
 </table>
-		
+</br>
