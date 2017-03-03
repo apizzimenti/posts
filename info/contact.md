@@ -86,7 +86,7 @@ email on them. Otherwise:
 
 </br>
 
-I am also an [approved tutor for the Department of Computer Science](https://cs.uiowa.edu/resources/approved-tutors). I can tutor up to CS:2210 (2230 is en route). It changes from semester to semester, but here's my schedule:
+I am also an [approved tutor for the Department of Computer Science](https://cs.uiowa.edu/resources/approved-tutors). I can tutor up to CS:2210 (2230 is en route). The hours marked in bold are best for impromptu meetings or long stretches of tutoring. Otherwise, email me to set up an appointment and I'll let you know if I can make accommodations.
 
 </br>
 </br>
