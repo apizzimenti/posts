@@ -6,20 +6,29 @@ email on them. Otherwise:
 
 <style>
     table {
-        width: 400px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 10px
-    }
-    
-    th, td {
-        border-bottom: 1px solid #ddd;
-        text-align: center;
-    }
-    
-    #times {
-    	width: 500px;
-    }
+  padding: 0; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+margin-bottom: 0; }
 </style>
 
 <table>
@@ -55,7 +64,7 @@ email on them. Otherwise:
 
 I am also an [approved tutor for the Department of Computer Science](https://cs.uiowa.edu/resources/approved-tutors). I can tutor up to CS:2210 (2230 is en route). It changes from semester to semester, but here's my schedule:
 
-<table id="times">
+<table>
 	<thead>
 		<tr>
 			<td><strong>Day</strong></td>
