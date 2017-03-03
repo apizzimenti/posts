@@ -7,9 +7,6 @@
         padding: 10px;
         border-radius: 5px;
         margin: 10px;
-    }
-    
-    a {
         color: white;
         font-weight: bold;
         text-decoration: none;
@@ -32,8 +29,8 @@
 </p>
 
 <div id=buttons>
-    <button><a href="http://apizzimenti.com/#/blog">Blog</a></button>
-    <button><a href="http://apizzimenti.com/#/about">About</a></button>
-    <button><a href="http://apizzimenti.com/#/contact">Contact Me</a></button>
+    <a href="http://apizzimenti.com/#/blog"><button>Blog</button></a>
+    <a href="http://apizzimenti.com/#/about"><button>About</button></a>
+    <a href="http://apizzimenti.com/#/contact"><button>Contact Me</button></a>
 </div>
 
