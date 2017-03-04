@@ -54,9 +54,9 @@ $$ 6_{(2)} = 110 $$
 
 $$ 7_{(2)} = 111 $$
 
-Can you see the connection from $ \wp (Q) $ to these binary numbers? There is actually a one-to-one correspondence between the power set and these numbers. A $1$ indicates the presence of an element and a $0$ indicates the absence of an element. Since each number (or subset) is unique, and there are the same number of subsets in $ \wp (Q) $ and the numbers $[0, 2^n - 1]$, and each subset is of the same size as its morphism, we can establish an isomorphism.
+Can you see the connection from $ \wp (Q) $ to these binary numbers? There is actually a one-to-one correspondence between the power set and these numbers. A $1$ indicates the presence of an element and a $0$ indicates the absence of an element. Since each number (or subset) is unique, and there are the same number of subsets in $ \wp (Q) $ and the numbers $[0, 2^3 - 1]$, and each subset is of the same size as its morphism, we can establish an isomorphism.
 
-$$ M: \wp (Q) \twoheadrightarrow [0, 2^n - 1]$$
+$$ \forall S \ \big| \ |S| = n, \ \ M: \wp (S) \twoheadrightarrow [0, 2^n - 1]$$
 
 We can find all the subsets pretty easily! Turns out that it's computationally simple, but it still takes $\textbf O (2^n)$ time. We also want to provide some lower bound of the subsets we need to check. The idea behind this is that if some set $K \subseteq V$ is not a vertex cover, no set $k \subseteq K$ can be a cover, either.
 
