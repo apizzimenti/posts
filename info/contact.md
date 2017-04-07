@@ -82,6 +82,10 @@ email on them. Otherwise:
         <td>Instagram</td>
         <td><a href=https://www.instagram.com/apizzimenti>apizzimenti</a></td>
     </tr>
+    <tr>
+    	<td>Phone</td>
+    	<td>(319) 400-5930</td>
+    </tr>
 <table>
 
 </br>
