@@ -23,10 +23,8 @@
 </style>
 
 <h2 style='text-align: center'><strong>Welcome!</strong></h2>
-<p style='text-align: center'>
-    Hey, I'm Anthony. I'm a software developer, a student, and a bunch of other stuff. Take a look around and make
-    yourself comfortable.
-</p>
+
+Hi, I'm Anthony. I like hockey, math, spending time with people I like, and making cool software. The three buttons below are the most important parts of the site, so take a look there. All my contact information is updated regularly, so don't hesitate to get in touch :)
 
 <div id=buttons>
     <a href="http://apizzimenti.com/#/blog"><button>Blog</button></a>
