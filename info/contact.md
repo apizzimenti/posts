@@ -51,6 +51,14 @@ email on them. Otherwise:
     table tr th :last-child, table tr td :last-child {
 		margin-bottom: 0;
 	}
+	
+	table caption {
+	   background-color: #f8f8f8;
+	   border-left: 1px solid #cccccc;
+	   border-right: 1px solid #cccccc;
+	   border-top: 1px solid #cccccc;
+	   font-weight: bold;
+	}
 </style>
 
 <table>
@@ -90,17 +98,44 @@ email on them. Otherwise:
 
 </br>
 
-I am also an approved tutor for the departments of [Computer Science](https://cs.uiowa.edu/resources/approved-tutors) and [Mathematics](https://math.uiowa.edu/undergraduate-program/tutoring-resources). The hours marked in bold are best for impromptu meetings or long stretches of tutoring. Otherwise, email me to set up an appointment and I'll let you know if I can make accommodations.
+I am also an approved tutor for the departments of [Computer Science](https://cs.uiowa.edu/resources/approved-tutors) and [Mathematics](https://math.uiowa.edu/undergraduate-program/tutoring-resources). The hours marked in bold are best for impromptu meetings or long stretches of tutoring. Otherwise, email me to set up an appointment and I'll let you know if I can make accommodations. Typical meeting spots are 117, 118, Muhly Lounge, and the basement conference room at MacLean Hall; otherwise, we can take a TILE classroom or reserve a group meeting room at the main library.
 
 </br>
 </br>
 
 <table>
+    <caption>Rates</caption>
+    <thead>
+        <tr>
+            <td><strong>Condition</strong></td>
+            <td><strong>Rate ($/hr)</strong>
+        </tr>
+    </thead>
+    
+    <tr>
+        <td>Standard</td>
+        <td>$20</td>
+    </tr>
+    
+    <tr>
+        <td>I don't respond within 24 hours</td>
+        <td>15</td>
+    </tr>
+    
+    <tr>
+        <td>We meet during my work time(s)</td>
+        <td>25</td>
+</table>
+
+</br>
+
+<table>
+    <caption>Hours</caption>
 	<thead>
-		<tr>
-			<td><strong>Day</strong></td>
-			<td>Free</td>
-			<td>Work</td>
+	   <tr>
+	       <td><strong>Day</strong></td>
+	       <td>Free</td>
+	       <td>Work</td>
 		</tr>
 	</thead>
 	
