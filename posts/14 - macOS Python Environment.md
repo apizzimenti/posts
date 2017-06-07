@@ -13,10 +13,17 @@ This is the definitive guide to setting up Python on a Macintosh. The bold secti
 	- [**Installation**](#2.1)
 	- [Housekeeping](#2.2)
 3. [**Python**](#3)
-	- [**Warnings**](#3.0)
+	- [Warnings](#3.0)
 	- [Python 2](#3.1)
 	- [Python 3](#3.2)
 	- [Pip](#3.3)
+	- [Errors](#3.4)
+	- [Running a Program](#3.5)
+4. [Development Tools](#4)
+    - [Editors and IDEs](#4.1)
+    - [Version Control](#4.2)
+    - [Style](#4.3)
+5. [Conclusion](#5)
 
 ## <a name="1">Prerequisites</a>
 Running a few checks prior to diving into setup will make things run more smoothly, and can help prevent problems later on. The goals of the prerequisite section are to find out which tools the computer already has, which ones need installing, and how they relate to Python itself.
@@ -33,7 +40,7 @@ The notation I use for describing a Terminal command is like this:
 
 `$ <command> [option 1] ... [option n]`
 
-The `$` is just a separator, and it's used to denote that you've opened a new shell. The `<command>` and `[option 1] ...` parts are to show the command and options we'll be using with the shell. In short, you don't have to type the `$`.
+The `$` is just a separator, and it's persistent in all new shells. The `<command>` and `[option 1] ...` parts are to show the command and options we'll be using with the shell. In short, you don't have to type the `$`.
 
 Essentially any computer text will be formatted `like this`, so it can be differentiated from regular post text.
 
@@ -53,11 +60,13 @@ Additionally, many of the tools baked into a macOS installation are written by *
 ### <a name="1.3">Bash and Environment Variables</a>
 Bash (commonly referred to as a Bash shell, which doesn't make much sense because, expanded, that's just "bash shell shell") is the default shell for macOS. When a user begins to use Terminal, they are "logged in" to the default login shell. While this user is logging in, Bash reads from three files -  `~/.bash_profile`, `~/.bash_login`, and `~/.profile` in that order. This allows any user to set preferences for Bash itself - how the prompt looks, special-use variables, sourcing other files, running background tasks, etc. We will be modifying some of these files later on, but we'll be doing it responsibly. Hopefully you'll become familiar enough to modify any of those three files later on and work some cool Bash magic.
 
+To move around in Bash, use the commands `$ cd <directory>`, `$ ls`, and `$ pwd`. `cd` means "change directory", `ls` means "list out everything in this directory", and `pwd` means "print the path to the directory I'm currently in". When you open a new shell, you start at the `~` folder, which is your user's folder. Try navigating to some files on your desktop and listing them. Practicing this is key to using the command line efficiently.
+
+To "step back" to a previously visited directory, you can run `$ cd ..`. For example, if I'm in `~/desktop/`, running `$ cd ..` will take me back to `~/`. To stay in or reference the current directory, you can simply use `.` (e.g. `$ cd .` will do nothing, as you stay in the same directory).
+
 Bash keeps track of a set of global presets called environment variables. These values are available in all new shells and open to all languages that interface with the OS once they have been set (or changed). They have universal read access, and are used by countless programs to find installations of software, packages, and other necessary programs.
 
-When a command is run in Bash, it uses the `PATH` environment variable to search for the executable file the command is tied to. You can look at what's stored in `PATH` by running
-
-`$ echo $PATH`. Mine returns a huge list of directories where the commands I run *could* be located.
+When a command is run in Bash, it uses the `PATH` environment variable to search for the executable file the command is tied to. You can look at what's stored in `PATH` by running `$ echo $PATH`. Mine returns a huge list of directories where the commands I run *could* be located.
 
 ### <a name="1.4">Run All the Checks!</a>
 In order to install Python, we're going to install a package manager called [Homebrew](https://brew.sh). Homebrew manages the versions and installations of all packages. It's written in Ruby, so we're going to check that your pre-packged Ruby installation is still there.
@@ -127,7 +136,9 @@ To install Python 3, run
 ### <a name"3.3>Pip</a>
 Pip is the package management ecosystem for Python. The Python Software Foundation keeps a registry of useful third-party Python addons that are typically open-source and publicly available.
 
-When using 
+When using Python, just like in the warnings above, `pip` and `pip3` are different. Installing a package with `pip install <package>` can't be found by `python3` or `pip3`, and vice versa.
+
+However, Pip is extremely useful, and [the man page](https://pip.pypa.io/en/stable/) is worth looking at.
 
 ### <a name="3.4">Errors</a>
 
@@ -136,8 +147,62 @@ If `$ brew install python` or `$brew install python3` gives you an error saying 
 - The bottle can't be compiled because `gcc` is not installed, run `$ xcode-select --install` to install Apple Command Line Tools (which includes `gcc`, the GNU Compiler Collection). Then, run `$ brew install python3`.
 - `/usr/local/bin` may not be writable, change the permissions of the directory by running ``$ sudo chown -R `whoami` /usr/local/``.
 
-If `$ which python` or `$ which python3` don't return `/usr/local/bin/python/` or `/usr/local/bin/python3` respectively, or when you run `$ python` or `$ python3` you get a `command not found` error, there may be a linking issue. Follow these instructions in order, and stop when the problem is fixed.
+If `$ which python` or `$ which python3` doesn't return `/usr/local/bin/python/` or `/usr/local/bin/python3` respectively, or when you run `$ python` or `$ python3` you get a `command not found` error, there may be a linking issue. Follow these instructions in order, and stop when the problem is fixed.
 
 1. Run `$ brew doctor` to find any problems, and then run `$ brew unlink python && brew link python` (or `python3`) to try and rewrite the existing symlinks.
 2. Run `$ brew link --dry-run --overwrite python` (or `python3`) to check if a `python3` already exists in `/usr/local/bin/`. If it does, you can overwrite it by running `$ brew link --overwrite python`.
 3. If none of the above have worked, run `$ echo $PATH`. If the directory `/usr/local/bin` doesn't appear there, you'll have to modify your `PATH` environment variable. You can do this by editing `~/.bash_profile` or `~/.profile` using the [Vim editor.](https://www.linux.com/learn/vim-101-beginners-guide-vim) Add `export PATH=/usr/local/bin/:$PATH` and save the file. This adds `/usr/local/bin/` to the list of locations Bash looks for executable programs.
+
+### <a name="3.5">Running a Program</a>
+Let's write a little test program. Navigate to the desktop in Terminal and create a new file called `test.py` (you can do this by running `$ touch test.py`). Edit it in the editor of your choice, and have the only line be
+
+```
+print("Hello, World!")
+```
+
+That's it! We can run the program in Terminal by running `$ python3 test.py`, and it'll print `Hello, World!` happily into the console window. If we want to add a layer of complexity, we'll get into hashbangs. Go back to editing the file, and add an additional bit of text *on the first line*.
+
+```
+#!/usr/bin/env python3
+print("Hello, World!")
+```
+
+Let's break this down.
+
+- `#!` tells Bash that this program has a specific interpreter.
+- `/usr/bin/env` is not a location, but a command that lists all environment variables. You can actually see these by running `$ env`. In any case, Bash is looking in the `PATH` variable listed by `/usr/bin/env` in order to find a specific interpreter, which reads the program and executes it.
+- `python3` is the interpreter that Bash looks for. Awesome!
+
+Then, instead of running `$ python3 test.py` (which can still be run), we can do something more interesting. First, we change the permissions of the file using `chmod` (change mode) by running `$ chmod 700 ./test.py`. Then, we can simply run `$ ./test.py` as an executable file, and get back `Hello, World!`
+
+
+## <a name="4">Development Tools</a>
+Python is great by itself, but usually developers like a little help when it comes to actually writing the code (we're lazy at heart, which is why we're writing code in the first place). A brief overview of some reliable addons to your toolbox is in order.
+
+### <a name="4.1">Editors and IDEs</a>
+Every programmer has their preferred suite of code editing and management software. But for Python's purposes, a few stand out.
+
+All Python installations come with a program called IDLE installed. This is basically a user-friendly Python shell. IDLE should be used for programs that are < 10 lines in length (I don't even use it at all). The Python 2 IDLE can be opened by running `$ idle` and Python 3 by `$ idle3`.
+
+Another option is our old friend Vim. I've customized Vim fairly heavily, to the point where it has search-and-highlight functionality, directory structures, etc. Vim is great to use with small- to mid-sized projects consisting of a few directories and a reasonable amount of files.
+
+Finally, for big projects, JetBrains is the way to go. Their IDEs have awesome debugging, can run programs in the window, keep track of version control, and have all the cool bells and whistles. PyCharm, JetBrains' Python IDE, is the editor of choice for anything with tons of files, directories, and a lot of code to keep track of.
+
+### <a name="4.2">Version Control</a>
+Remember when we installed Git earlier? Well, it's a crazily useful tool for version control. I recommend that every project you start be managed with Git. It has a learning curve, but it'll save your ass in a pinch.
+
+The basics are thus:
+
+Say you have a directory `project/`. You just made it, and you have a bunch of files in there, like `main.py` and `setup.py`. Using terminal, navigate into your project folder by running `$ cd /path/to/project`.
+
+- To start a new Git repository, run `$ git init`. This initializes a new mini-database, and it'll keep track of all your files in a hidden folder in `project/` called `project/.git`. If (for some reason) you want to remove the repository, delete the `.git` folder by running `$ rm -rf /path/to/project/.git/`.
+- You can check the status of your files by running `$ git status`. This shows which files are new, which have changes made to them, and which are saved in the database already.
+- When you want to save changes to a file, you create what's called a commit. You are, essentially, committing changes to be permanently stored in the tiny database. To do this, run `$ git add <files>`, and then `$ git commit -m "message about the commit"`. 
+
+You can also put your repositories up online by using a remote repository. Git has a built-in feature that allows you to shove your files into a remote server and have the code available to the internet (if you so desire). Go to [GitHub](https://github.com) and follow their instructions on how to use remotes. Furthermore, read up as much as you can on Git - it's a widely-used version control system and extremely important to development practices.
+
+### <a name="4.3">Style</a>
+Follow the [PEP guidelines for code layout](https://www.python.org/dev/peps/pep-0008/). Plain and simple.
+
+## <a name="5">Conclusion</a>
+Hopefully this has been helpful. If you'd like to suggest revisions, additions, or anything else, you can [contact me](http://apizzimenti/#/contact) or open a pull request on GitHub.
