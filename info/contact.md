@@ -141,32 +141,32 @@ I am also an approved tutor for the departments of [Computer Science](https://cs
 	
 	<tr>
 		<td><strong>Monday</strong></td>
-		<td>8:30am - 10:20am </br> <strong>5:00pm - 9:00pm</strong></td>
-		<td>12:00pm - 2:20pm </br> 3:30pm - 5:00pm</td>
+		<td>By appointment</td>
+		<td>9:00am - 5:00pm
 	</tr>
 	
 	<tr>
 		<td><strong>Tuesday</strong></td>
-		<td>1:45pm - 3:20pm </br> <strong>5:00pm - 9:00pm</strong></td>
-		<td>9:00am - 12:20pm</td>
+		<td>By appointment</td>
+		<td>9:00am - 5:00pm
 	</tr>
 	
 	<tr>
 		<td><strong>Wednesday</strong></td>
-		<td>8:30am - 10:20am </br> <strong>5:00pm - 9:00pm</strong></td>
-		<td>12:00pm - 2:20pm </br> 3:30pm - 5:00pm</td>
+		<td>By appointment</td>
+		<td>9:00am - 5:00pm
 	</tr>
 	
 	<tr>
 		<td><strong>Thursday</strong></td>
-		<td>5:00pm - 9:00pm</td>
-		<td>9:00am - 12:00pm</td>
+		<td>By appointment</td>
+		<td>9:00am - 5:00pm
 	</tr>
 	
 	<tr>
 		<td><strong>Friday</strong></td>
-		<td>8:30am - 10:20am </br> (tentative) 5:00pm - 9:00pm</td>
-		<td>11:20am - 12:20pm </br> 1:30pm - 2:20pm </br> 3:30pm - 5:00pm</td>
+		<td>By appointment</td>
+		<td>9:00am - 5:00pm
 	</tr>
 </table>
 
